@@ -9,11 +9,11 @@
    "env": {
     "BOT_TOKEN": {
       "description": "A Secret Bot Token, Used To Login The BOT. Get The Token In Your App Settings.",
-      "value": ""
+      "value": "",
       
     "PREFIX": {
       "description": "Your Bots Prefix",
-      "value": ""
+      "value": "",
 
     "OWNERID": {
       "description": "Your Bots Prefix",
