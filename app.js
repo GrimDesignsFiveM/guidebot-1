@@ -11,9 +11,9 @@ try{
 } catch (e) {
   if(process.env.botToken) {
     bot.config = {
-      botToken: process.env.botToken,
-      prefix: process.env.prefix,
-      ownerid: process.env.ownerid
+      botToken: process.env.BOT_TOKEN,
+      prefix: process.env.PREFIX,
+      ownerid: process.env.OWNERID
     };
   } else {
     throw "NO CONFIG FILE FOUND, NO ENV CONF FOUND, EXITING";
